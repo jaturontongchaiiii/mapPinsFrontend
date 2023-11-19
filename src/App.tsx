@@ -12,7 +12,7 @@ function App() {
 const [showLogin, setShowLogin] = useState(false);
 const [showRegister, setShowRegister] = useState(false);
 
-  const REACT_APP_MAPBOX = "pk.eyJ1IjoiamF0dXJvbnRvbmciLCJhIjoiY2xveWJqMmIwMDI4cTJrcnJ2ejM5eG9keiJ9.-3hVj_NDOPD3O8o2VKfk7g";
+  const REACT_APP_MAPBOX = "YOUR_TOKEN";
   const [pins, setPins]: any = useState([]);
   const [currentPlaceId, setCurrentPlaceId]: any = useState(null);
   const [viewport, setViewport] = useState({
